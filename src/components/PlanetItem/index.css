@@ -1,0 +1,42 @@
+.planet-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  width: 255px;
+  height: 255px;
+}
+
+.name {
+  font-family: Roboto;
+  font-size: 22px;
+  color: #f8fafc;
+}
+
+.description {
+  font-family: Roboto;
+  font-size: 15px;
+  max-width: 750px;
+  text-align: center;
+  color: #f1f5f9;
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 30px;
+    margin-top: 42px;
+  }
+
+  .image {
+    width: 450px;
+    height: 330px;
+  }
+
+  .description {
+    font-size: 22px;
+    margin-bottom: 42px;
+  }
+}
